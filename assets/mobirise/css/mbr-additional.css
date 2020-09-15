@@ -816,7 +816,7 @@ a {
 }
 @media (min-width: 992px) {
   .cid-sarwLsDqfQ .card-wrapper {
-    padding: 2rem;
+    padding: 0.5rem;
   }
 }
 @media (max-width: 991px) {
@@ -875,7 +875,7 @@ a {
 }
 @media (min-width: 992px) {
   .cid-sarv6rAwfF .content-wrapper {
-    padding: 5rem 3rem;
+    padding: 1rem;
   }
   .cid-sarv6rAwfF .content-wrapper .text-wrapper {
     padding-right: 2rem;
