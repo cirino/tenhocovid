@@ -1,3 +1,5 @@
+// dados por estados
+// https://xx9p7hp1p7.execute-api.us-east-1.amazonaws.com/prod/PortalEstado
 
 function geral(categoriaDado, tipoDado, idCampo, frase){
 	var url = 'https://xx9p7hp1p7.execute-api.us-east-1.amazonaws.com/prod/PortalGeralApi';
@@ -5,7 +7,8 @@ function geral(categoriaDado, tipoDado, idCampo, frase){
 	xhr.onreadystatechange = function() {
 		if (xhr.readyState === 4){
 			var dados = JSON.parse(xhr.responseText);
-			document.getElementById(idCampo).innerHTML = dados[categoriaDado][tipoDado] + frase;
+			var valor = parseInt((dados[categoriaDado][tipoDado]), 10).toLocaleString('pt-BR');
+			document.getElementById(idCampo).innerHTML = valor + frase;
 		}
 	};
 	xhr.open('GET', url);
