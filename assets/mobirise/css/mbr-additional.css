@@ -1335,7 +1335,8 @@ a {
   background: #0c85d0;
 }
 .cid-sarseRnSPi .socicon-bg-vkontakte {
-  background: #4680C2;
+  /* background: #4680C2; */
+  background: #34af23;
   color: #ffffff;
 }
 .cid-sarseRnSPi .socicon-bg-vkontakte:hover {
