@@ -21,6 +21,6 @@ geral('confirmados', 'novos', 'dadoNovos', ' novos casos.');
 geral('confirmados', 'total', 'dadoConfirmadoTotal', ' total notificados.');
 geral('obitos', 'novos', 'dadoObitosNovos', ' óbitos nas últimas 24h');
 geral('obitos', 'total', 'dadoObitosTotal', ' infelizmente vieram a óbito.');
-geral('obitos', 'letalidade', 'dadosMortalidade', '% Taxa de Letalidade.');
+geral('obitos', 'letalidade', 'dadosLetalidade', '% Taxa de Letalidade.');
 
 console.log('Feito por Cirino, durante as lives no canal https://twitch.tv/CasaDoDev');
